@@ -46,7 +46,7 @@ Sample dataset (generated dummy data)
 
 1. Clone this repository:
 
-git clone https://github.com/your-username/Instagram-Clone-Project.git
+git clone https://github.com/JangamreddyPravallika/Instagram-Clone-Project.git
 cd Instagram-Clone-Project
 
 
@@ -82,8 +82,6 @@ JOIN likes ON users.id = likes.user_id
 GROUP BY users.id
 HAVING COUNT(likes.photo_id) = (SELECT COUNT(*) FROM photos);
 
-
----
 
 🚀 Features
 
